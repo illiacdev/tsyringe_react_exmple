@@ -5,6 +5,7 @@ tsconfig.json  수정.\
 reflect-metadata 폴리필 추가.\
 yarn add --dev babel-plugin-transform-typescript-metadata  //바벨 플러그인 추가.\
 npm install --save craco  //craco 추가 및 package.json 변경.\
+craco.config.ts -> plugins: ["babel-plugin-transform-typescript-metadata"] 추가
 
 
 # Getting Started with Create React App
