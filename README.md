@@ -1,3 +1,12 @@
+## CRA로 프로젝트 생성후 추가 작업
+https://github.com/microsoft/tsyringe 참조 \
+yarn add tsyringe\
+tsconfig.json  수정.\
+reflect-metadata 폴리필 추가.\
+yarn add --dev babel-plugin-transform-typescript-metadata  //바벨 플러그인 추가.\
+npm install --save craco  //craco 추가 및 package.json 변경.\
+craco.config.ts -> plugins: ["babel-plugin-transform-typescript-metadata"] 추가
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
